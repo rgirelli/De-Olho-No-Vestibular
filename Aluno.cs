@@ -11,6 +11,7 @@ class Aluno{
   protected string escolaridade;
 
   public string Nome{
+
     get{
       return nome;
     }
@@ -76,9 +77,17 @@ class Aluno{
     Console.WriteLine("**CADASTRO DE ALUNO**" );
     Console.WriteLine("Nome: ");
     Nome = Console.ReadLine();
-
-
-
-
+    Console.WriteLine("Cpf: ");
+    Cpf = Console.ReadLine();
+    Console.WriteLine("Data de nascimento: ");
+    DataNascimento = Console.ReadLine();
+    Email = Console.WriteLine("Email: ");
+    Email = Console.ReadLine();
+    Console.WriteLine("Área: ");
+    Area = Console.ReadLine();
+    Console.WriteLine("Curso: ");
+    Curso = Console.ReadLine();
+    Console,WriteLine("Escolaridade: ");
+    Escolaridade = Console.ReadLine();
 
 }
