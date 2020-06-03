@@ -80,14 +80,17 @@ class Aluno{
     Console.WriteLine("Cpf: ");
     Cpf = Console.ReadLine();
     Console.WriteLine("Data de nascimento: ");
-    DataNascimento = Console.ReadLine();
-    Email = Console.WriteLine("Email: ");
+    DataNascimento = DateTime.Parse(Console.ReadLine());
+    Console.WriteLine("E-mail: ");
     Email = Console.ReadLine();
     Console.WriteLine("Área: ");
     Area = Console.ReadLine();
     Console.WriteLine("Curso: ");
     Curso = Console.ReadLine();
-    Console,WriteLine("Escolaridade: ");
+    Console.WriteLine("Escolaridade: ");
     Escolaridade = Console.ReadLine();
 
+    File.WriteAllText("CadastrarAluno.txt","*CADASTRO DO ALUNO*\nNome: " +Nome +"\nCpf: " +Cpf +"\nData de Nascimento: " +DataNascimento +"\nE-mail: " +Email +"Área: " +Area +"Curso: " +Curso +"Escolaridade: " +Escolaridade);
+  }
 }
+
