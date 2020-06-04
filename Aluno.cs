@@ -87,7 +87,7 @@ class Aluno{
       } 
       if (opcao == "2")
       {
-        CadastrarAluno();
+        //exibir menu de escolhas
       }
       //tratar depois valores != 1 e 2
       
@@ -142,6 +142,8 @@ class Aluno{
         {
             file.WriteLine("\n** SOBRE VOCÊ **\n>> Nome: "+Nome+ "\n>> Data de nascimento: "+DataNascimento+ "\n>> E-mail: "+Email+"\n>> Área de conhecimento: "+Area+"\n>> Curso escolhido: "+Curso+"\n>> Escolaridade: "+Escolaridade );
         }
+
+
    }
  }
 
