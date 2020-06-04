@@ -1,0 +1,5 @@
+*CADASTRO DO ALUNO*
+Nome: Raquel Girelli de Oliveira
+Cpf: 
+Data de Nascimento: 4/17/1998 12:00:00 AM
+E-mail: rgirelli@ucl.brÁrea: 4Curso: Análise e Desenvolvimento de SistemasEscolaridade: Sim
