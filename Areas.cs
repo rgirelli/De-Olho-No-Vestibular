@@ -8,5 +8,16 @@ Redação.*/
 using System;
 using System.IO;
 class Areas{
+  private string areaConhecimento;
+  
+  public string AreaConhecimento{
+    get{
+      return areaConhecimento;
+    }
+    set{
+      areaConhecimento = value;
+    }
+  }
+
   
 }
