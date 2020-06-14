@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-class Aluno{
+class Aluno : Areas{
  
   protected string nome;
   //protected string cpf;
@@ -81,13 +81,20 @@ class Aluno{
     Console.WriteLine(">> OLÁ, ALUNO(A)! SEJA BEM VINDO(A)!!" );
     Console.WriteLine("Digite 1 para primeiro acesso e 2 se já é cadastrado: ");
     opcao = Console.ReadLine();
-      if (opcao == "1")
-      {
+      if (opcao == "1"){
         CadastrarAluno();
       } 
-      if (opcao == "2")
-      {
-        //exibir menu de escolhas
+      if (opcao == "2"){
+        Console.WriteLine(">> SELECIONE NO MENU A SEGUIR A OPÇÃO DESEJADA: ");
+        Console.WriteLine("1 - Áreas de conhecimento\n2 - Checklist de conteúdos gerais\n3 - Guia do livro\n4 - Simulados\n5 - Acompanhe seu progresso\n6 - Portifólio de Redações\n7 - Dicas ");
+        opcao = Console.ReadLine();
+          if (opcao == "1"){
+            ImprimirAreas();
+          }
+          if (opcao == "2"){
+
+          
+          }
       }
       //tratar depois valores != 1 e 2
       
@@ -104,36 +111,29 @@ class Aluno{
     Email = Console.ReadLine();
     Console.WriteLine("Qual a área de conhecimento de seu maior interesse?\n1- Ciências da Natureza\n2- Ciências Humanas\n3- Linguagens, Códigos e suas Tecnologias\n4- Matemática e suas Tecnologias\n5- Redação ");
     Area = Console.ReadLine();
-      if(Area=="1")
-      {
+      if(Area=="1"){
         Area = ("Ciências da Natureza");
       }
-      if(Area=="2")
-      {
+      if(Area=="2"){
         Area = ("Ciências Humanas");
       }
-      if(Area=="3")
-      {
+      if(Area=="3"){
         Area = ("Linguagens, Códigos e suas Tecnologias");
       }
-      if(Area=="4")
-      {
+      if(Area=="4"){
         Area = ("Matemática e suas Tecnologias");
       }
-      if(Area=="5")
-      {
+      if(Area=="5"){
         Area = ("Redação");
       }
     Console.WriteLine("Qual o curso pretendido? ");
     Curso = Console.ReadLine();
     Console.WriteLine("Você já acabou o ensino médio? (s/n)");
     Escolaridade = Console.ReadLine();
-      if(Escolaridade == "s")
-      {
+      if(Escolaridade == "s"){
         Escolaridade = ("Ensino médio concluído.");
       }
-      if(Escolaridade== "n")
-      {
+      if(Escolaridade== "n"){
         Escolaridade = ("Ensino médio incompleto.");
       }
       
