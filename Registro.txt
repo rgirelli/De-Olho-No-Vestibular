@@ -1,8 +1,0 @@
-
-** SOBRE VOCÊ **
->> Nome: Raquel
->> Data de nascimento: 4/17/1998 12:00:00 AM
->> E-mail: rgirelli@ucl.br
->> Área de conhecimento: Matemática e suas Tecnologias
->> Curso escolhido: ADS
->> Escolaridade: Ensino médio concluído.
