@@ -26,9 +26,9 @@ A ferramenta contará com a funcionalidade de simulados, onde o usuário poderá
 
 O usuário terá acesso aos seus resultados nos simulados anteriores para que possa acompanhar sua evolução ao longo do tempo, além de poder ter a percepção de necessidades de melhoria em áreas específicas. 
 
-## Portifólio de Redação
+## Dicas de Redação
 
-Contará com uma lista de possíveis temas da atualidade que podem, eventualmente, cair na prova. Além disso, o usuário poderá escrever suas redações e guardá-las para posteriores consultas. 
+Contará com uma lista de possíveis temas da atualidade que podem, eventualmente, cair na prova. Além disso, contará com dicas enriquecedoras para impressionar os corretores e arrasar na pontuação.
 
 ## Dicas para um bom desempenho
 
