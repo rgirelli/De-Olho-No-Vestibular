@@ -3,6 +3,8 @@ using System.IO;
 
 class Dicas{
   public void ImprimirDicasGerais(){
-    Console.WriteLine(" ");
+    string[] lines = File.ReadAllLines("Dicas.txt");
+   
+    foreach(var line in lines) Console.WriteLine(line);
   }
 }

@@ -62,7 +62,6 @@ class MainClass {
         break;
       case "7":
         dicas.ImprimirDicasGerais();
-        //adicionar as dicas na classe Dicas
         break;
       default:
         Console.WriteLine("Comando inválido.");
