@@ -63,6 +63,9 @@ class MainClass {
       case "7":
         dicas.ImprimirDicasGerais();
         break;
+      case "8":
+        atualidades.ImprimirAtualidades();
+        break;   
       default:
         Console.WriteLine("Comando inválido.");
         break;
