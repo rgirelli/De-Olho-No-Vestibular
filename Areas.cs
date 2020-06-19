@@ -10,6 +10,7 @@ using System.IO;
 class Areas{
   
   private string areaConhecimento;
+  private string simuladoGeral;
   public string opcao;
   
     
@@ -22,10 +23,35 @@ class Areas{
     }
   }
 
+  public string SimuladoGeral{
+    get{
+      return simuladoGeral;
+    }
+    set{
+      simuladoGeral = value;
+    }
+  }
+
   public void ImprimirAreas(){
     
     
     Console.WriteLine("1 - Ciências Humanas e suas Tecnologias\n2 - Matemática e suas Tecnologias\n3 - Linguagens, Códigos e suas Tecnologias\n4 - Ciências da Natureza e suas Tecnologias");
+  }
+
+  public void ImprimirHumanas(){
+     Console.WriteLine(">> As matérias abordadas serão: História, Geografia, Filosofia e Sociologia");
+  }
+
+  public void ImprimirMatematica(){
+    Console.WriteLine(">> Nesta área, serão cobrados conhecimentos de matemática aplicados ao cotidiano.");
+  }
+
+  public void ImprimirLinguagens(){
+    Console.WriteLine(">> Nesta área, a prova vai cobrar conhecimento de português, literatura, artes, educação física e línguas. O aluno poderá optar entre inglês e espanhol.");
+  }
+
+  public void ImprimirCiencias(){
+    Console.WriteLine(">> Nesta área, a prova vai cobrar conhecimentos de química, física e biologia.");
   }
   //public void SelecionarArea(){
     //Console.WriteLine("\n>> SELECIONE A ÁREA DE CONHECIMETO QUE DESEJA CONSULTAR: ");

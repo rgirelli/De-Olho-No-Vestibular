@@ -4,38 +4,83 @@ class MainClass {
   public static void Main (string[] args){
   string opcao;
   Aluno aluno = new Aluno();
-  ListaConteudos lista = new ListaConteudos();
+  Menu menu = new Menu();
+  ListaConteudos checklist = new ListaConteudos();
   Areas areas = new Areas();
-  Geografia geo = new Geografia();
-  //Areas geo = new Areas();
+  Aplicativos app = new Aplicativos();
+  Literatura literatura = new Literatura();
+  Redacao redacao = new Redacao();
+  Dicas dicas = new Dicas();
+  Artes artes = new Artes();
   aluno.ImprimirBoasVindas();
-  Console.WriteLine("\n>> ESCOLHA UMA DAS OPÇÕES ACIMA: ");
+  
 
+  Console.WriteLine("\nEscolha uma opção: \n1 - Sobre mim \n2 - Acessar conteúdo ");
   opcao = Console.ReadLine();
   if (opcao == "1"){
-    aluno.CadastrarAluno();
+    aluno.EfetuarCadastro();
   }
   if (opcao == "2"){
-    Console.WriteLine("\n>> ESCOLHA UMA DAS OPÇÕES A SEGUIR:   ");
-    Console.WriteLine("1 - Escolher área de conhecimento\n2 - Guia do livro\n3 - Simulados\n4 - Portifólio de Redação\n5 - Dicas\n6 - EXTRA: fórmulas úteis");
+    Console.WriteLine("\nInforme a opção desejada para continuar: ");
+    menu.ImprimirMenu();
     opcao = Console.ReadLine();
-    if (opcao == "1"){
-      //areas.SelecionarArea();
-      Console.WriteLine("\n>> QUAL ÁREA GOSTARIA DE CONSULTAR? ");
-      areas.ImprimirAreas();
-      opcao = Console.ReadLine();
-      if (opcao == "1"){
-        Console.WriteLine("\n>> SELECIONE A DISCIPLINA DESEJADA:  ");
+      
+    switch (opcao){
+      case "1":
+        checklist.ImprimirLista();
+        break;
+      case "2":
+        Console.WriteLine("Informe a opção desejada para continuar: ");
+        areas.ImprimirAreas();
         opcao = Console.ReadLine();
-      } 
-    }
-    
-    
-  }
-  
-  //areas.SelecionarArea();
-  //geo.ImprimirMenuGeografia();
-  
-  }
-}
+        if (opcao == "1"){
+          areas.ImprimirHumanas();
+        }
+        if (opcao == "2"){
+          areas.ImprimirMatematica();
+        }
+        if (opcao == "3"){
+          areas.ImprimirLinguagens();
+        }
+        if (opcao == "4"){
+          areas.ImprimirCiencias();
+        }
+        break;
+      case "3":
+        app.ImprimirAplicativos();
+        break;
+      case "4":
+        literatura.ListarLivros();
+        //voltar e adicionar resumo
+        break;
+      case "5":
+        Console.WriteLine();
+        //adicionar simulado nan classe simulado
+        break;
+      case "6":
+        redacao.ImprimirRedacao();
+        break;
+      case "7":
+        dicas.ImprimirDicasGerais();
+        //adicionar as dicas na classe Dicas
+        break;
+      default:
+        Console.WriteLine("Comando inválido.");
+        break;
 
+        
+
+
+
+
+        
+        
+    }
+
+
+
+  }
+
+  
+  }
+} 

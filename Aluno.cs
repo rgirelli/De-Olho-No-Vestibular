@@ -79,30 +79,10 @@ class Aluno : Areas{
 
   public void ImprimirBoasVindas(){
     Console.WriteLine(">> OLÁ, ALUNO(A)! SEJA BEM VINDO(A)!!" );
-    Console.WriteLine("1 - Primeiro acesso\n2 - Já tenho acesso à plataforma ");
-    /*opcao = Console.ReadLine();
-      if (opcao == "1"){
-        CadastrarAluno();
-      } 
-      /*if (opcao == "2"){
-        Console.WriteLine(">> SELECIONE NO MENU A SEGUIR A OPÇÃO DESEJADA: ");
-        Console.WriteLine("1 - Áreas de conhecimento\n2 - Checklist de conteúdos gerais\n3 - Guia do livro\n4 - Simulados\n5 - Acompanhe seu progresso\n6 - Portifólio de Redações\n7 - Dicas ");
-        opcao = Console.ReadLine();
-          if (opcao == "1"){
-            ImprimirAreas();
-          }
-          if (opcao == "2"){
+    }
 
-          
-          }
-      }*/
-      //tratar depois valores != 1 e 2
-      
-  }
-
-  
-  public void CadastrarAluno(){
-    Console.WriteLine("\n>> Antes de começarmos gostaríamos de saber mais sobre você. Para isso responda as perguntas a seguir: \n" );
+    public void EfetuarCadastro(){
+      Console.WriteLine("\n>> Antes de começarmos gostaríamos de saber mais sobre você. Para isso responda as perguntas a seguir: \n" );
     Console.WriteLine("Qual o seu nome? ");
     Nome = Console.ReadLine();
     Console.WriteLine("Qual a sua data de nascimento? (ano mês dia)");
@@ -145,5 +125,5 @@ class Aluno : Areas{
 
 
    }
- }
-
+    }
+    
