@@ -18,14 +18,6 @@ Contará com uma vasta lista de aplicativos existentes que poderão auxiliar nos
 
 Trará informações a respeito de livros que caem com frequência no Exame Nacional do Ensino Médio (ENEM), como resumos e informações relevantes.
 
-## Simulados
-
-A ferramenta contará com a funcionalidade de simulados, onde o usuário poderá selecionar a(s) área(s) de conhecimento desejada(s) e resolver questões da disciplina. No fim do simulado o usuário receberá o resultado do percentual de acertos, gabarito comentado e, caso necessário, dicas para aumentar o desempenho nas próximas tentativas.  
-
-## Progresso 
-
-O usuário terá acesso aos seus resultados nos simulados anteriores para que possa acompanhar sua evolução ao longo do tempo, além de poder ter a percepção de necessidades de melhoria em áreas específicas. 
-
 ## Dicas de Redação
 
 Contará com uma lista de possíveis temas da atualidade que podem, eventualmente, cair na prova. Além disso, contará com dicas enriquecedoras para impressionar os corretores e arrasar na pontuação.
